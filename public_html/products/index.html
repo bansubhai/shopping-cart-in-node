@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device - width, initial-scale=1">
+    <title>Products</title>
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="../jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<div>
+
+    <form action="/products/add" method="post" class="col-md-12">
+        <div class="col-md-6">
+            <input id="productName" placeholder="Product Name" name="name" class="col-md-5">
+            <div class="col-md-1"></div>
+            <input id="productPrice" placeholder="Product Price" name="price" class="col-md-5">
+        </div>
+        <button type="submit" class="col-md-1" id="add">Add</button>
+    </form>
+
+
+    <div id="products" class="col-md-12">
+        <div id="columns" class="col-md-12">
+            <div class="col-md-2">ItemNo</div>
+            <div class="col-md-5">Product</div>
+            <div class="col-md-4">Price</div>
+            <div class="col-md-1">Options</div>
+        </div>
+        <div id="productsList" class="col-md-12"></div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    overflow: auto;
+    height: 40%;
+    background-image: url("images/Empty-shelf.jpg");
+    background-size: 20% 100%;
+    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    margin: 20% 30px;
+    height: 150px;
+    min-width: 150px;
+    background-color: crimson;
+    font-family: "Helvetica Neue";
+    border-radius: 10px;
+    box-shadow: 0 0 3px 4px crimson,
+    inset 0 0 5px 5px crimson;
+}
+
+.productName {
+    font-size: 20px;
+}
+
+.productPrice {
+    font-size: 17px;
+}
+
+.productQuantity {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+}
+
+#cart {
+    height: 40%;
+    overflow: auto;
+}
+
+#columns {
+    margin: 5px;
+    /*border: 2px solid black;*/
+    text-align: center;
+    font-family: Menlo;
+    font-size: large;
+    padding: 0;
+}
+
+#columns > div {
+    border: solid 2px;
+}
+
+#cartItems {
+    padding: 0;
+    margin: 5px;
+}
+
+.cartItem {
+    min-height: 50px;
+    padding: 0;
+    text-align: center;
+    font-size: medium;
+    font-family: KacstQurn;
+}

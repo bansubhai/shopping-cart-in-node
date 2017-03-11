@@ -1,0 +1,26 @@
+form{
+    margin: 2%;
+    height: 60px;
+}
+
+#products {
+    overflow: auto;
+    text-align: center;
+}
+
+#columns {
+    margin: 5px;
+    font-family: Menlo;
+    font-size: large;
+    /*padding: 0;*/
+}
+
+#columns > div {
+    border: solid 2px;
+}
+
+.product{
+    height: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
